@@ -24,7 +24,7 @@ using System.Text.RegularExpressions;
 
 /// <remarks>
 ///     RIP has three classes with several different tasks to perform. The brunt of the work being
-/// done via static methods in <see cref="RIP.RipDeathHandler>RipDeathHandler</see>.
+/// done via static methods in <see cref="RIP.RipDeathHandler">RipDeathHandler</see>.
 ///
 /// TASK 1)
 ///     Mod activation. RipDeathHandler performs activation of the mod itself as well as manging mod settings. The core aspect of
