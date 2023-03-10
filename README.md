@@ -6,7 +6,7 @@ Daggerfall is an amazingly immersive experience. But you know what would make it
 
 # Features  
 This mod provides many configurable options for what happens upon dying. Features include:  
-*Lives Counter - When you run out, it really is game over!
+* Lives Counter - When you run out, it really is game over!
 * Random chance for GameOver on death.
 * Drop some or all of your gear where you died. 
 * Drop some or all of your inventory where you died. Even your horse, cart, spellbook, and quest items can be dropped!
