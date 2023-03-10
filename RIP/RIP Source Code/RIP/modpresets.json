@@ -1,0 +1,12 @@
+[
+    {
+        "Title": "Default",
+        "Author": "Sluggy",
+        "Description": "The default settings for a challenging but not brutal playthrough.",
+        "SettingsVersion": null,
+        "Values": {
+
+        },
+        "$version": "v1"
+    }
+]

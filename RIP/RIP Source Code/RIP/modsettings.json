@@ -1,0 +1,229 @@
+{
+    "Version": "0.1",
+    "Sections": [
+        {
+            "Name": "DropUponDeath",
+            "Description": "Settings for what can be dropped upon death and how likely or how much of it will be dropped.",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": true,
+                    "Name": "Gold",
+                    "Description": "Toggles if gold should be dropped upon death,",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 100,
+                    "Value": 100,
+                    "Name": "GoldPercent",
+                    "Description": "How much of your total gold should be dropped.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Equipment",
+                    "Description": "Toggles if equipped items should drop upon death.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 100,
+                    "Value": 100,
+                    "Name": "EquipmentPercent",
+                    "Description": "The chance that any given equipped item will be dropped.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Inventory",
+                    "Description": "Toggles if non-equipped inventory should drop. Does not include your wagon or equipped items.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 100,
+                    "Value": 100,
+                    "Name": "InventoryPercent",
+                    "Description": "The chance that any given item will be dropped.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Spellbook",
+                    "Description": "Toggles if spellbook should be dropped upon death.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "QuestItems",
+                    "Description": "Toggles if quest items should be dropped upon death.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Horse",
+                    "Description": "Toggles if you should loose your 'harsey' on death.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Cart",
+                    "Description": "Toggles if you should loose your cart on death. Note: this will not remove anything FROM the cart itself.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "CartContents",
+                    "Description": "<Not Yet Implemented>Toggles if your cart should drop all of its contents.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                }
+            ],
+            "$version": "v1"
+        },
+        {
+            "Name": "DeathOptions",
+            "Description": "Extra options for potential game over scenarios.",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": true,
+                    "Name": "LeaveCorpse",
+                    "Description": "Upon death, will you leave a corpse with all of your dropped items inside of it?",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "CorpseCanRot",
+                    "Description": "If enabled, player corpse can rot after a time causing all items to be lost.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 360,
+                    "Value": 90,
+                    "Name": "CorpseRotTime",
+                    "Description": "How many days for the player's corpse to rot.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 10,
+                    "Value": 6,
+                    "Name": "MaxCorpses",
+                    "Description": "The maximum number of corpses that can exist. After this, older ones will be replaced by newer ones.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "CanDie",
+                    "Description": "Should normal death also be an option?",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 100,
+                    "Value": 5,
+                    "Name": "DeathChance",
+                    "Description": "The chance of death ending the game as normal. Only applies if 'Can Die' is enabled.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "CanLoseLives",
+                    "Description": "Allows you to respawn until all lives are gone. Ignores the above two options.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 99,
+                    "Value": 3,
+                    "Name": "Lives",
+                    "Description": "The starting number of lives  before death. Only applies if 'Can Lose Lives' is enabled.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "ZeroStatsCauseDeath",
+                    "Description": "If your stats reach zero do you die? If not, they will be restored during respawn.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "LoseXp",
+                    "Description": "<NOT YET IMPLEMENTED> Lose progress to the next skill level upon death?",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Options": [
+                        "Fixed",
+                        "Distance to Respawn"
+                    ],
+                    "Value": 1,
+                    "Name": "UnconciousMode",
+                    "Description": "How is unconcious time determined?",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 168,
+                    "Value": 12,
+                    "Name": "UnconciousTime",
+                    "Description": "If using Fixed unconcious time, how much time in hours passes while unconcious.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 90,
+                    "Value": 7,
+                    "Name": "MaxUnconciousDays",
+                    "Description": "If using 'Distance to Respawn' this sets maximum days that can pass.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "EnhanceCorpseVisibility",
+                    "Description": "Adds an effect to corpses to make them easier to spot.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Options": [
+                        "Last Non-Expired Tavern",
+                        "Last Tavern"
+                    ],
+                    "Value": 0,
+                    "Name": "RespawnMode",
+                    "Description": "How should respawn work?",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+                }
+            ],
+            "$version": "v1"
+        }
+    ]
+}

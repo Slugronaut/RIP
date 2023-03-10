@@ -1,0 +1,17 @@
+{
+    "ModTitle": "RIP",
+    "ModVersion": "0.2",
+    "ModAuthor": "Sluggy",
+    "DFUnity_Version": "0.14.4",
+    "ModDescription": "Alternative options to death.",
+    "GUID": "d14ee36f-7263-49f3-8327-d33057974c10",
+    "Files": [
+        "Assets/Game/Mods/RIP/Scripts/RipDeathHandler.cs",
+        "Assets/Game/Mods/RIP/RIP.dfmod.json",
+        "Assets/Game/Mods/RIP/modsettings.json",
+        "Assets/Game/Mods/RIP/modpresets.json",
+        "Assets/Game/Mods/RIP/Scripts/RipTavernPoller.cs",
+        "Assets/Game/Mods/RIP/Scripts/RipCorpseLootPoller.cs",
+        "Assets/Game/Mods/RIP/Assets/CorpseParticles.prefab"
+    ]
+}

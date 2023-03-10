@@ -1,0 +1,1 @@
+Contained in this directory is the source code for RIP. Simply place the folder 'RIP' and it's matching metafile into your daggerfall unity's 'Assets/Game/Mods/ directory to start modding.
